@@ -1,4 +1,3 @@
-/*
 
 //Question:1   Program that asks the user for two numbers and print their sum
 
@@ -105,15 +104,12 @@ console.log('Sum of all the ODD numbers is : ',sum);
 
 
 
-
-*/
-
 //------------------------------------------------------------------------------------------------
 //Question:4    write a script that takes a user's grade as input & whether they passed or failed.
 
  
-var grade=parseInt(prompt('Enter your Grade (A,B,C or D):: '));
-
+//var grade=parseInt(prompt('Enter your Grade (A,B,C or D):: '));
+var grade = 'A'
 switch(grade){
         case 'A':
         console.log('Congrats.. You have passed the exam');
@@ -136,8 +132,6 @@ switch(grade){
         break; 
     
 }
-
-
 
 //--------------------Not getting the correct answer FOR QUESTION NO: 4--------------------
 
